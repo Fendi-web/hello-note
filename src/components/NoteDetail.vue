@@ -16,7 +16,7 @@
   </div>
   <div class="editor">
     <textarea v-show="!isShowPreview" v-model="curNote.content" @input="updateNote"  @keydown="statusText='正在输入中...'"   placeholder="输入内容,支持 markdown 语法"></textarea>
-    <div class="preview markdown-bdistody" v-html="previewContent"  v-show="isShowPreview">
+    <div class="preview markdown-bdistnody" v-html="previewContent"  v-show="isShowPreview">
       
     </div>
     </div>
